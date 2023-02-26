@@ -43,3 +43,8 @@ def bill_total():
     print(total_bill)
     total_cost.set("${:,.2f}".format(float(total_bill)))
     return total_cost
+
+quantity = IntVar()
+menu_item= StringVar()
+price= IntVar()
+total_cost = StringVar()
